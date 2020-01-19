@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\file-regular.png" />
+    <None Remove="Images\folder-open-regular.png" />
+    <None Remove="Images\folder-regular.png" />
+    <None Remove="Images\hdd-regular.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\file-regular.png" />
+    <Resource Include="Images\folder-open-regular.png" />
+    <Resource Include="Images\folder-regular.png" />
+    <Resource Include="Images\hdd-regular.png" />
+  </ItemGroup>
+
+</Project>
